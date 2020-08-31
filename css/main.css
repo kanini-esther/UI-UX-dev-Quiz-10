@@ -1,0 +1,132 @@
+body{
+	background-color: #E3DDCC;
+	font-family: 'Oswald', sans-serif;
+  
+}
+
+.introduction h1{
+ background-color:#00234D;
+ color:#fff;
+ text-align: center;
+font-size: 28px;
+padding: 16px;
+
+}
+.bio {
+	background-color:#00326E;
+	margin-top: 0;
+	min-height: 450px;
+}
+.bio h2 {
+	padding-top: 70px;
+	text-align: center;
+	font-size: 52px;
+	color: #fff;
+
+}
+.bio p{
+	text-align: center;
+	padding-top: 15px;
+	letter-spacing: 8px;
+	color:#F4D03F;
+	font-weight: lighter;
+
+}
+.main{
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.about{
+	margin-top: 12px; 
+	background-color: white;
+	height: 670px;
+}
+.about h3{
+	background-color: #F4D03F;
+	padding: 40px;
+	font-size: 30px;
+}
+.about img{
+	float: left;
+	clear: right;
+	margin-right: 12px;
+	padding: 12px;
+	width: 440px;
+	height: 500px;
+}
+.about p{
+	padding-left: 8px;
+	padding-top: 12px;
+}
+
+.flex-container {
+    display: flex;
+    height: 360px;
+    width: 1000px;
+    padding-top: 40px;
+   /* background-color: #fff*/;
+}
+
+.flex-child {
+    flex: 1;
+    border:  solid white;
+    background-color: #fff;
+   /* background-color: yellow;*/
+}  
+
+.flex-child:first-child {
+    margin-right: 20px;
+  /*  background-color: yellow;*/
+} 
+.flex-child h4{
+	text-align: center;
+	font-size: 40px;
+	padding-top: 0;
+	margin: 0;
+	padding: 12px;
+	background-color: #F4D03F;
+}
+.flex-child ul{
+	background-color: #fff;
+	padding: 18px;
+	letter-spacing: 2;
+}
+.docs {
+  width: 1000px;
+  height: 400px;
+  border-collapse: collapse;
+  margin: 40px auto 0 auto;
+  background-color: #fff;
+}
+.docs td, .docs th {
+  padding: 7px;
+}
+.docs td{
+	border: 1px solid #ddd;
+	text-align: center;
+}
+.docs th {
+  padding-top: 14px;
+  padding-bottom: 14px;
+  text-align: center;
+  background-color:#F4D03F;
+  color: #34495E;
+}
+.footer{
+	height: 200px;
+	background-color: #00326E;
+}
+.footer h4{
+	padding: 30px;
+	margin-left: 250px;
+	color: #fff;
+
+}
+.footer ol{
+	margin-left: 250px;
+	color: #F4D03F;
+}
+
+
+
